@@ -1,1 +1,169 @@
+In Python, operators are special symbols used to perform operations on variables and values. Python has several types of operators, and they are classified based on the operation they perform. Here's a detailed explanation of the types of operators in Python:
 
+1. Arithmetic Operators
+Arithmetic operators are used to perform basic mathematical operations.
+
+-> Addition (+): Adds two operands.
+
+Example: 5 + 3 results in 8
+
+-> Subtraction (-): Subtracts the second operand from the first.
+
+Example: 5 - 3 results in 2
+
+-> Multiplication (*): Multiplies two operands.
+
+Example: 5 * 3 results in 15
+
+-> Division (/): Divides the first operand by the second. The result is always a float.
+
+Example: 5 / 2 results in 2.5
+-> Floor Division (//): Divides the first operand by the second and returns the largest integer less than or equal to the result (i.e., it discards the decimal part).
+
+Example: 5 // 2 results in 2
+
+-> Modulus (%): Returns the remainder when the first operand is divided by the second.
+
+Example: 5 % 2 results in 1
+
+-> Exponentiation (**): Raises the first operand to the power of the second operand.
+
+Example: 5 ** 3 results in 125
+
+
+
+2. Comparison (Relational) Operators
+Comparison operators are used to compare two values and return a boolean result (True or False).
+
+-> Equal to (==): Returns True if the operands are equal.
+
+Example: 5 == 5 results in True
+
+-> Not equal to (!=): Returns True if the operands are not equal.
+
+Example: 5 != 3 results in True
+
+-> Greater than (>): Returns True if the left operand is greater than the right operand.
+
+Example: 5 > 3 results in True
+
+-> Less than (<): Returns True if the left operand is less than the right operand.
+
+Example: 3 < 5 results in True
+
+-> Greater than or equal to (>=): Returns True if the left operand is greater than or equal to the right operand.
+
+Example: 5 >= 3 results in True
+
+-> Less than or equal to (<=): Returns True if the left operand is less than or equal to the right operand.
+
+Example: 3 <= 5 results in True
+
+
+
+3. Logical (Boolean) Operators
+Logical operators are used to combine conditional statements and return a boolean value.
+
+-> Logical AND (and): Returns True if both operands are True.
+
+Example: True and True results in True
+
+-> Logical OR (or): Returns True if at least one operand is True.
+
+Example: True or False results in True
+
+-> Logical NOT (not): Returns True if the operand is False, and False if the operand is True.
+
+Example: not True results in False
+
+
+
+4. Assignment Operators
+Assignment operators are used to assign values to variables. Python allows shorthand operations for simple assignments.
+
+-> Simple Assignment (=): Assigns the value of the right operand to the left variable.
+
+Example: x = 5
+
+-> Add and Assign (+=): Adds the right operand to the left operand and assigns the result to the left operand.
+
+Example: x += 3 is equivalent to x = x + 3
+
+-> Subtract and Assign (-=): Subtracts the right operand from the left operand and assigns the result to the left operand.
+
+Example: x -= 3 is equivalent to x = x - 3
+
+-> Multiply and Assign (*=): Multiplies the left operand by the right operand and assigns the result to the left operand.
+
+Example: x *= 3 is equivalent to x = x * 3
+
+-> Divide and Assign (/=): Divides the left operand by the right operand and assigns the result to the left operand.
+
+Example: x /= 3 is equivalent to x = x / 3
+
+-> Modulus and Assign (%=): Takes the modulus of the left operand with the right operand and assigns the result to the left operand.
+
+Example: x %= 3 is equivalent to x = x % 3
+
+-> Exponentiation and Assign (**=): Raises the left operand to the power of the right operand and assigns the result to the left operand.
+
+Example: x **= 3 is equivalent to x = x ** 3
+
+-> Floor Divide and Assign (//=): Performs floor division of the left operand by the right operand and assigns the result to the left operand.
+
+Example: x //= 3 is equivalent to x = x // 3
+
+
+
+5. Bitwise Operators
+Bitwise operators perform operations on bits (binary representations of numbers).
+
+-> AND (&): Performs a bitwise AND operation.
+
+Example: 5 & 3 results in 1 (binary: 0101 & 0011 = 0001)
+
+-> OR (|): Performs a bitwise OR operation.
+
+Example: 5 | 3 results in 7 (binary: 0101 | 0011 = 0111)
+
+-> XOR (^): Performs a bitwise XOR operation (exclusive OR).
+
+Example: 5 ^ 3 results in 6 (binary: 0101 ^ 0011 = 0110)
+
+-> NOT (~): Performs a bitwise NOT operation (inverts all bits).
+
+Example: ~5 results in -6
+
+-> Left Shift (<<): Shifts the bits of the left operand to the left by the number of positions specified by the right operand.
+
+Example: 5 << 1 results in 10 (binary: 0101 << 1 = 1010)
+
+-> Right Shift (>>): Shifts the bits of the left operand to the right by the number of positions specified by the right operand.
+
+Example: 5 >> 1 results in 2 (binary: 0101 >> 1 = 0010)
+
+
+
+6. Membership Operators
+Membership operators are used to check if a value is present in a sequence (like a list, tuple, or string).
+
+-> in: Returns True if the value is found in the sequence.
+
+Example: 5 in [1, 2, 3, 4, 5] results in True
+
+-> not in: Returns True if the value is not found in the sequence.
+
+Example: 5 not in [1, 2, 3, 4] results in True
+
+
+
+7. Identity Operators
+Identity operators are used to compare the memory locations of two objects.
+
+-> is: Returns True if both operands refer to the same object in memory.
+
+Example: x is y checks if x and y are the same object.
+
+-> is not: Returns True if both operands refer to different objects in memory.
+
+Example: x is not y checks if x and y are not the same object.
