@@ -1,0 +1,10 @@
+()                            parenthesis 
+**                            exponentiation
+-                             unary minus
+*,/,//,%                      Arithmetic operator
+>,<,>=,<=,==,!=               Relation operator 
+is , is not                   identity operator
+in , not in                   membership operator
+not logical not
+or logical or
+and logical and
