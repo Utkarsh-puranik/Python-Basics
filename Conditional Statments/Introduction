@@ -1,0 +1,84 @@
+
+Conditional Statements in Python
+Conditional statements in Python allow you to execute different blocks of code based on whether a condition is True or False. 
+These are essential for decision-making processes in programming. Python supports several types of conditional statements: if, if-else, and if-elif-else.
+
+1. if Statement:
+The if statement is used to test a condition. If the condition evaluates to True, the code inside the if block is executed. If the condition is False, the code inside the if block is skipped.
+
+Syntax:
+
+if condition:
+    # block of code
+condition: This is an expression that will evaluate to either True or False.
+If the condition evaluates to True, the block of code (indented) will execute.
+If the condition evaluates to False, the block is skipped.
+
+Example:
+
+age = 18
+if age >= 18:
+    print("You are an adult.")
+If age is greater than or equal to 18, the message "You are an adult." is printed.
+If age is less than 18, nothing happens, and the program continues.
+
+
+2. if-else Statement:
+The if-else statement is used when you want to execute one block of code if the condition is True, and a different block of code if the condition is False.
+
+Syntax:
+if condition:
+    # block of code executed if condition is True
+else:
+    # block of code executed if condition is False
+If the condition evaluates to True, the code inside the if block is executed.
+If the condition evaluates to False, the code inside the else block is executed.
+
+Example:
+
+age = 16
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+If age is 18 or more, the program prints "You are an adult.".
+If age is less than 18, it prints "You are a minor.".
+
+
+3. if-elif-else Statement:
+The if-elif-else statement allows you to check multiple conditions. If the first condition is False, Python will check the next condition specified by elif. 
+If none of the if or elif conditions evaluate to True, the else block will execute.
+
+Syntax:
+if condition1:
+    # block of code if condition1 is True
+elif condition2:
+    # block of code if condition2 is True
+else:
+    # block of code if none of the above conditions are True
+elif: Short for "else if," this checks another condition if the previous if or elif condition was False.
+else: This block executes if none of the conditions before it were True.
+
+Example:
+score = 85
+if score >= 90:
+    print("Grade A")
+elif score >= 80:
+    print("Grade B")
+elif score >= 70:
+    print("Grade C")
+else:
+    print("Grade F")
+If score is 90 or higher, the program prints "Grade A".
+If score is between 80 and 89, it prints "Grade B".
+If score is between 70 and 79, it prints "Grade C".
+If score is below 70, it prints "Grade F".
+
+
+Flow of Conditional Statements:
+The flow of execution for conditional statements is as follows:
+
+The if statement is evaluated first. If it's True, the associated block of code runs, and the program skips the rest of the elif or else blocks.
+If the if condition is False, Python checks the next elif (if present).
+If no if or elif conditions are True, the program moves to the else block (if present).
+If no else block is present, the program simply skips the remaining code.
