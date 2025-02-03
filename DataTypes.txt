@@ -1,0 +1,61 @@
+Data types define the type of data a variable can hold. 
+Python has several built-in data types, which can be classified into several categories:
+
+Basic Data Types:
+a) Integer (int): Represents whole numbers (positive, negative, or zero) without decimal points.
+
+Example: x = 5
+
+b) Float: Represents numbers that have a decimal point (floating-point numbers).
+
+Example: y = 3.14
+
+c) String (str): Represents text or a sequence of characters enclosed in single or double quotes.
+
+Example: name = "John"
+
+d) Boolean (bool): Represents one of two values: True or False.
+
+Example: is_active = True
+
+Collection Data Types:
+
+i) List: An ordered collection of items, which can be of any type. Lists are mutable (you can change their contents).
+
+Example: numbers = [1, 2, 3, 4]
+
+ii) Tuple: An ordered collection of items, but unlike lists, tuples are immutable (you cannot modify them once they are created).
+
+Example: coordinates = (10, 20)
+
+iii) Set: An unordered collection of unique items. Sets do not allow duplicates.
+
+Example: unique_numbers = {1, 2, 3, 4}
+
+iv) Dictionary (dict): A collection of key-value pairs. Keys are unique, and values can be of any type.
+
+Example: person = {"name": "Alice", "age": 25}
+
+Other Data Types:
+1) None: A special type used to represent the absence of a value. It's often used to indicate no value or a null value.
+
+Example: result = None
+
+2) Complex (complex): Represents complex numbers, which have a real and an imaginary part.
+
+Example: z = 3 + 5j
+
+Type Conversion:
+You can convert between different data types using built-in functions:
+
+int(): Convert to integer.
+float(): Convert to float.
+str(): Convert to string.
+bool(): Convert to boolean.
+
+
+Example:
+
+x = "10"
+y = int(x)  # Converts the string "10" to an integer
+z = float(x)  # Converts the string "10" to a float (10.0)

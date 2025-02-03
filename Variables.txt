@@ -1,0 +1,22 @@
+A variable is a name given to a memory location that stores a value.
+It acts as a container for data, allowing you to reference and manipulate the data. 
+Variables do not need to be explicitly declared with a type in Python, which makes it a dynamically typed language.
+
+Example:
+
+x = 10  # Here, x is a variable storing the integer value 10
+name = "John"  # name is a variable storing a string "John"
+
+
+Variable Naming Rules:
+-> Can include letters (a-z, A-Z), numbers (0-9), and underscores (_).
+-> The first character must be a letter or an underscore.
+-> Python is case-sensitive (age and Age are different).
+-> Cannot use Python reserved words (like class, False, if, etc.).
+-> Assignment: In Python, you use the = operator to assign values to variables. The value can be of any type and can change during the program's execution.
+
+Example:
+
+age = 25  # integer variable
+name = "Alice"  # string variable
+is_valid = True  # boolean variable

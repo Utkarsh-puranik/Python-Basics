@@ -1,0 +1,11 @@
+Key Features of Python
+
+Interpreted Language: Python does not require compilation, as it executes code line by line.
+
+Dynamically Typed: No need to specify data types; Python automatically detects them.
+
+Object-Oriented: Supports object-oriented programming concepts such as classes and objects.
+
+Garbage Collection: Manages memory automatically, reducing memory leaks.
+
+Multi-Paradigm: Supports procedural, object-oriented, and functional programming styles.
